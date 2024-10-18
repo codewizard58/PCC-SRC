@@ -1,0 +1,9 @@
+          IDENT CMESSAG
+          ENTRY CMESSAG
+CMESSAG   PS
+          BX6   X0
+          SA6   CMESS+1
+          MESSAGE CMESS,1,R
+          EQ    CMESSAG
+CMESS     DATA    C*COMPILING XXXXXXX   COPYRIGHT P.J.CHURCHYARD* 
+          END
